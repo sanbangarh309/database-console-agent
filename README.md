@@ -33,12 +33,10 @@ This app runs **100% locally** using **LM Studio** (no OpenAI key, no cloud call
 .
 ├── README.md
 ├── .gitignore
-├── simple-chat-ui/        # React UI (DB Console)
-└── simple-chat-api/       # Flask API
+├── frontend/        # React UI (DB Console)
+└── backend/       # Flask API
     ├── app.py
-    ├── storage.py
     ├── requirements.txt
-    └── data/              # chat/session data (ignored by git)
 ```
 
 ## Test LM API Server
